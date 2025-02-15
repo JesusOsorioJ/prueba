@@ -1,0 +1,32 @@
+### Consultar todos los task
+GET http://localhost:3000/api/task/
+Accept: application/json
+Content-Type: application/json
+
+
+### Crear task
+POST http://localhost:3000/api/task/
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "titulo",
+    "description":"description"
+}
+
+### Actualizar task
+PUT http://localhost:3000/api/task/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "titulo actualizar",
+    "description":"description actualizar"
+}
+
+
+### Elimminar task
+DELETE http://localhost:3000/api/task/1
+Accept: application/json
+Content-Type: application/json
+
